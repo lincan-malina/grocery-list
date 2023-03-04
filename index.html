@@ -5,5 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grocery List</title>
   </head>
-  <body></body>
+  <body>
+    <div id="app">
+      <!-- Header -->
+      <div class="header">
+        <h1 class="header__title">Grocery Bud</h1>
+      </div>
+      <!-- END: Header -->
+
+      <!-- Add Item List -->
+      <div class="add">
+        <input
+          type="text"
+          name="grocery_item"
+          class="input"
+          placeholder="eg: eggs"
+        />
+        <button class="button buton--primary">Submit</button>
+      </div>
+      <!-- END: Add Item List -->
+
+      <!-- List Items -->
+      <div class="list">
+        <ul class="list__items">
+          <li class="list__item">
+            <span>List item</span>
+            <div class="list__actions">
+              <button class="button button--primary">Edit</button>
+              <button class="button button--danger">Delete</button>
+            </div>
+          </li>
+        </ul>
+
+        <button class="button button--danger">Clear items</button>
+      </div>
+      <!-- END: List Items -->
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <a href="#" class="pagination__item">Previous</a>
+        <a href="#" class="pagination__item">1</a>
+        <a href="#" class="pagination__item">2</a>
+        <a href="#" class="pagination__item">3</a>
+        <a href="#" class="pagination__item">4</a>
+        <a href="#" class="pagination__item">Next</a>
+      </div>
+      <!-- END: Pagination -->
+    </div>
+  </body>
 </html>
