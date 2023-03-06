@@ -1,0 +1,45 @@
+.fw--bold {
+  font-weight: bold;
+}
+.fw--normal {
+  font-weight: normal;
+}
+.fw--light {
+  font-weight: lighter;
+}
+.fst--italic {
+  font-style: italic;
+}
+.text--uppercase {
+  text-transform: uppercase;
+}
+.text--lowercase {
+  text-transform: lowercase;
+}
+.text--center {
+  text-align: center;
+}
+.text--right {
+  text-align: right;
+}
+.text--danger {
+  color: #fc2003;
+}
+.text--primary {
+  color: #0330fc;
+}
+.text--info {
+  color: #03dffc;
+}
+.text--warning {
+  color: #fce303;
+}
+.text--black {
+  color: #000000;
+}
+.text--light {
+  color: #ffffff;
+}
+.text--dark {
+  color: #a8a8a8;
+}
