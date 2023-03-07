@@ -1,45 +1,63 @@
 .fw--bold {
   font-weight: bold;
 }
+
 .fw--normal {
-  font-weight: normal;
+  font-weight: 400;
 }
+
 .fw--light {
-  font-weight: lighter;
+  font-weight: 200;
 }
+
 .fst--italic {
   font-style: italic;
 }
+
 .text--uppercase {
   text-transform: uppercase;
 }
+
 .text--lowercase {
   text-transform: lowercase;
 }
+
 .text--center {
   text-align: center;
 }
+
+.text--left {
+  text-align: left;
+}
+
 .text--right {
   text-align: right;
 }
+
 .text--danger {
   color: #fc2003;
 }
+
 .text--primary {
   color: #0330fc;
 }
+
 .text--info {
   color: #03dffc;
 }
+
 .text--warning {
   color: #fce303;
 }
+
 .text--black {
   color: #000000;
 }
+
 .text--light {
   color: #ffffff;
 }
+
 .text--dark {
   color: #a8a8a8;
 }
