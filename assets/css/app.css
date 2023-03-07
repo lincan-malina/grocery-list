@@ -1,5 +1,5 @@
 .fw--bold {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .fw--normal {
@@ -60,4 +60,52 @@
 
 .text--dark {
   color: #a8a8a8;
+}
+
+.btn {
+  background-color: #e2e7e3;
+  border: none;
+  color: #000000;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 5px;
+  width: auto;
+}
+
+.btn--danger {
+  color: #ffffff;
+  background-color: #eb321a;
+}
+
+.btn--primary {
+  color: #ffffff;
+  background-color: #57bff7;
+}
+
+.btn--success {
+  color: #ffffff;
+  background-color: #1fcc56;
+}
+
+.btn--warning {
+  color: #ffffff;
+  background-color: #f5e14e;
+}
+
+.btn--info {
+  color: #ffffff;
+  background-color: #7bd8e0;
+}
+
+.btn--dark {
+  color: #ffffff;
+  background-color: #70706f;
+}
+
+.btn--light {
+  color: #000000;
+  background-color: #f5f5f5;
 }
